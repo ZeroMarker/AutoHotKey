@@ -1,12 +1,28 @@
 #Requires AutoHotkey v2
 
-; 定义一个热字符串，将"helloworld"替换为C程序代码
-::helloworld::
-{
-    ; The code to type out
-    code := "#include <stdio.h>`n`nint main() {`n    printf(""Hello, World!\\n"");`n    return 0;`n}`n"
-    
-    ; Send the code to the active window
-    SendInput, %code%
-    return
+::iris::
+(
+#include<stdio.h>
+
+int main() {
+    printf("Hello, world!\n");
+    return 0;
 }
+)
+
+::for::
+(
+    s ord = $o(^OEORD(0,"Adm",EpisodeID,0)
+    q:ord=""
+    s sub = 0
+    for {
+        s sub = $o(^OEORD(ord,"I",sub))
+        q:sub=""
+        s exe = 0
+        for {
+            s exe = $o(^OEORD(ord,"I",sub,"X",exe)
+            q:exe=""
+
+        }
+    }
+)

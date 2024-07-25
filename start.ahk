@@ -29,6 +29,20 @@ Hotstring to expand "omw" to "On my way!"
     return
 }
 
+::iris::
+(
+顶部和底部括号之间的任何文本都按原义处理.
+默认情况下, 前一行和这一行之间的硬回车(Enter) 也会被保留下来.
+    默认情况下, 这一行左边的缩进(tab) 被保留.
+#include<stdio.h>
+
+int main() {
+
+    printf("Hello, world!\n");
+
+    return 0;
+}
+)
 /*
 Hotkey to minimize all windows with Win + M
 */
@@ -53,3 +67,5 @@ Hotkey to send Right Ctrl with Alt + CapsLock
     Run(EnvGet("USERPROFILE") "\Downloads")
     return
 }
+
+nclude<stdio.h>\nint main(int arg)
