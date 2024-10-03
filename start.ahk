@@ -1,3 +1,5 @@
+#Requires AutoHotkey v2
+
 /*
 Hotkeys and Hotstrings in AutoHotkey v2
 
@@ -16,6 +18,7 @@ Hotkey to open YouTube with Ctrl + K
 }
 
 
+; Alt + B
 !b:: {
     Run("chrome://bookmarks/")
 }
@@ -29,17 +32,14 @@ Hotstring to expand "omw" to "On my way!"
     return
 }
 
-::iris::
+:*:irisiris::
 (
-顶部和底部括号之间的任何文本都按原义处理.
-默认情况下, 前一行和这一行之间的硬回车(Enter) 也会被保留下来.
-    默认情况下, 这一行左边的缩进(tab) 被保留.
+;顶部和底部括号之间的任何文本都按原义处理.
+;默认情况下, 前一行和这一行之间的硬回车(Enter) 也会被保留下来.
+;默认情况下, 这一行左边的缩进(tab) 被保留.
 #include<stdio.h>
-
 int main() {
-
     printf("Hello, world!\n");
-
     return 0;
 }
 )
@@ -68,4 +68,9 @@ Hotkey to send Right Ctrl with Alt + CapsLock
     return
 }
 
-nclude<stdio.h>\nint main(int arg)
+
+:*:/id::371329200105010679
+
+:*:/ph::15197175562
+
+:*:/mark::mark.chen.im@gmail.com
